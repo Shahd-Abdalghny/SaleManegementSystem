@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SaleManegementSystem.BLL\SaleManegementSystem.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="SalesForms\frmSaleOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalesForms\frmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalesForms\frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalesForms\frmSaleOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SalesForms\frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
